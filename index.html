@@ -9,6 +9,14 @@
         body {
             padding-top: 56px;
         }
+        .image-container {
+            text-align: center; /* Centraliza o conteúdo do container */
+            margin-top: 20px; /* Adiciona um espaço acima da imagem */
+        }
+        .image-container img {
+            max-width: 100%; /* Garante que a imagem não ultrapasse o limite do container */
+            height: auto; /* Mantém a proporção da imagem */
+        }
     </style>
 </head>
 <body>
@@ -34,6 +42,9 @@
             <p class="lead">Esta é uma página de exemplo usando Bootstrap e GitHub Pages.</p>
             <hr class="my-4">
             <p>Atividade Prática 14 - GitHub Pages.</p>
+        </div>
+        <div class="image-container">
+            <img src="images/minha-imagem.jpg" alt="Descrição da Imagem">
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
